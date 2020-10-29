@@ -1,0 +1,17 @@
+C:\Users\saito\Desktop\Android\Shedule320\Shedule320\Shedule320\obj\Debug\netstandard2.0\Shedule320.csprojAssemblyReference.cache
+C:\Users\saito\Desktop\Android\Shedule320\Shedule320\Shedule320\obj\Debug\netstandard2.0\Shedule320.Properties.Resources.resources
+C:\Users\saito\Desktop\Android\Shedule320\Shedule320\Shedule320\obj\Debug\netstandard2.0\Shedule320.csproj.GenerateResource.cache
+C:\Users\saito\Desktop\Android\Shedule320\Shedule320\Shedule320\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\saito\Desktop\Android\Shedule320\Shedule320\Shedule320\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\saito\Desktop\Android\Shedule320\Shedule320\Shedule320\obj\Debug\netstandard2.0\Page1.xaml.g.cs
+C:\Users\saito\Desktop\Android\Shedule320\Shedule320\Shedule320\obj\Debug\netstandard2.0\Shedule320.AssemblyInfoInputs.cache
+C:\Users\saito\Desktop\Android\Shedule320\Shedule320\Shedule320\obj\Debug\netstandard2.0\Shedule320.AssemblyInfo.cs
+C:\Users\saito\Desktop\Android\Shedule320\Shedule320\Shedule320\obj\Debug\netstandard2.0\Shedule320.csproj.CoreCompileInputs.cache
+C:\Users\saito\Desktop\Android\Shedule320\Shedule320\Shedule320\obj\Debug\netstandard2.0\Shedule320.dll
+C:\Users\saito\Desktop\Android\Shedule320\Shedule320\Shedule320\obj\Debug\netstandard2.0\ref\Shedule320.dll
+C:\Users\saito\Desktop\Android\Shedule320\Shedule320\Shedule320\obj\Debug\netstandard2.0\Shedule320.pdb
+C:\Users\saito\Desktop\Android\Shedule320\Shedule320\Shedule320\bin\Debug\netstandard2.0\Shedule320.deps.json
+C:\Users\saito\Desktop\Android\Shedule320\Shedule320\Shedule320\bin\Debug\netstandard2.0\Shedule320.dll
+C:\Users\saito\Desktop\Android\Shedule320\Shedule320\Shedule320\bin\Debug\netstandard2.0\ref\Shedule320.dll
+C:\Users\saito\Desktop\Android\Shedule320\Shedule320\Shedule320\bin\Debug\netstandard2.0\Shedule320.pdb
+C:\Users\saito\Desktop\Android\Shedule320\Shedule320\Shedule320\obj\Debug\netstandard2.0\XamlC.stamp

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Shedule320.MainPage"
+             BackgroundColor="LightGray">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="550"/>
+        </Grid.RowDefinitions>
+
+
+
+        <Frame Grid.Row="0" HeightRequest="10" BackgroundColor="#0099FF">
+            <Label Text="Расписание для ПК320Д" 
+               TextColor="White" 
+               FontSize="32"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
+               HorizontalTextAlignment="Center"
+               Grid.Row="0"/>
+        </Frame>
+
+        <Frame Grid.Row="1" CornerRadius="50" Margin="8,10,8,30">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1"/>
+                    <RowDefinition Height="40"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Label Text="Выберите неделю и день недели" 
+                       Grid.Row="1" 
+                       Grid.ColumnSpan="2"
+                       HorizontalOptions="Center"
+                       FontSize="18"
+                       TextColor="Black"/>
+                <StackLayout Orientation="Vertical" Grid.Column="0" Grid.Row="2">
+                    <Label Text="1-АЯ" HorizontalOptions="Center" TextColor="Black"/>
+                    <Button Clicked="btMonday_Clicked" Text="Понедельник" CornerRadius="20" BorderColor="Black" BorderWidth="1" BackgroundColor="White"/>
+                    <Button Clicked="btTuesday_Clicked" Text="Вторник" CornerRadius="20" BorderColor="Black" BorderWidth="1" BackgroundColor="White"/>
+                    <Button Clicked="btWednesday_Clicked" Text="Среда" CornerRadius="20" BorderColor="Black" BorderWidth="1" BackgroundColor="White"/>
+                    <Button Clicked="btThursday1_Clicked" Text="Четверг" CornerRadius="20" BorderColor="Black" BorderWidth="1" BackgroundColor="White"/>
+                    <Button Clicked="btFriday_Clicked" Text="Пятница" CornerRadius="20" BorderColor="Black" BorderWidth="1" BackgroundColor="White"/>
+                    <Button Clicked="btSaturday_Clicked" Text="Суббота" CornerRadius="20" BorderColor="Black" BorderWidth="1" BackgroundColor="White"/>
+                    <Button Text="Вся неделя" CornerRadius="20" BorderColor="Black" BorderWidth="1" BackgroundColor="White"/>
+                </StackLayout>
+                <StackLayout Orientation="Vertical" Grid.Column="1" Grid.Row="2">
+                    <Label Text="2-АЯ" HorizontalOptions="Center" TextColor="Black"/>
+                    <Button Clicked="btMonday_Clicked" Text="Понедельник" CornerRadius="20" BorderColor="Black" BorderWidth="1" BackgroundColor="White"/>
+                    <Button Clicked="btTuesday_Clicked" Text="Вторник" CornerRadius="20" BorderColor="Black" BorderWidth="1" BackgroundColor="White"/>
+                    <Button Clicked="btWednesday_Clicked" Text="Среда" CornerRadius="20" BorderColor="Black" BorderWidth="1" BackgroundColor="White"/>
+                    <Button Clicked="btThursday2_Clicked" Text="Четверг" CornerRadius="20" BorderColor="Black" BorderWidth="1" BackgroundColor="White"/>
+                    <Button Clicked="btFriday_Clicked" Text="Пятница" CornerRadius="20" BorderColor="Black" BorderWidth="1" BackgroundColor="White"/>
+                    <Button Clicked="btSaturday_Clicked" Text="Суббота" CornerRadius="20" BorderColor="Black" BorderWidth="1" BackgroundColor="White"/>
+                    <Button Text="Вся неделя" CornerRadius="20" BorderColor="Black" BorderWidth="1" BackgroundColor="White"/>
+                </StackLayout>
+            </Grid>
+        </Frame>
+    </Grid>
+
+</ContentPage>

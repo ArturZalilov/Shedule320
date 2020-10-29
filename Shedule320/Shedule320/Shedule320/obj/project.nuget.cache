@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "DO3XVtAMHXI+deXI15b5/w1jTlAWwlh5fVWWf/9bfdvSHdqqvsLYOUrPzisfc5rdC/7URoYiCB6XHMFexmbtaA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\saito\\Desktop\\Android\\Shedule320\\Shedule320\\Shedule320\\Shedule320.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\saito\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\saito\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\saito\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
+  ],
+  "logs": []
+}

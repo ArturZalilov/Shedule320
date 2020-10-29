@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Shedule320.Page1">
+    <ContentPage.Content>
+        <Grid RowSpacing="0" ColumnSpacing="0">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="60"/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Frame Grid.Row ="0" Grid.ColumnSpan="3" BackgroundColor="#0099FF">
+                <Label x:Name="lbTitle" TextColor="White" FontSize="25" VerticalTextAlignment="Center" HorizontalOptions="Center"/>
+            </Frame>
+
+
+            <Frame Grid.Row="1" Grid.Column="0" BorderColor="Black" Padding="0">
+                <Label Text="Время" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Row="2" Grid.Column="0" BorderColor="Black" Padding="0">
+                <Label x:Name="time1"/>
+            </Frame>
+            <Frame Grid.Row="3" Grid.Column="0" BorderColor="Black" Padding="0">
+                <Label x:Name="time2"/>
+            </Frame>
+            <Frame Grid.Row="4" Grid.Column="0" BorderColor="Black" Padding="0">
+                <Label x:Name="time3"/>
+            </Frame>
+            <Frame Grid.Row="5" Grid.Column="0" BorderColor="Black" Padding="0">
+                <Label x:Name="time4"/>
+            </Frame>
+
+            <Frame Grid.Row="1" Grid.Column="1" BorderColor="Black" Padding="0">
+                <Label Text="Предмет" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Row="2" Grid.Column="1" BorderColor="Black" Padding="0">
+                <Label x:Name="lesson1"/>
+            </Frame>
+            <Frame Grid.Row="3" Grid.Column="1" BorderColor="Black" Padding="0">
+                <Label x:Name="lesson2"/>
+            </Frame>
+            <Frame Grid.Row="4" Grid.Column="1" BorderColor="Black" Padding="0">
+                <Label x:Name="lesson3"/>
+            </Frame>
+            <Frame Grid.Row="5" Grid.Column="1" BorderColor="Black" Padding="0">
+                <Label x:Name="lesson4"/>
+            </Frame>
+
+            <Frame Grid.Row="1" Grid.Column="2" BorderColor="Black" Padding="0">
+                <Label Text="Преподаватель" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Row="2" Grid.Column="2" BorderColor="Black" Padding="0">
+                <Label x:Name="teacher1"/>
+            </Frame>
+            <Frame Grid.Row="3" Grid.Column="2" BorderColor="Black" Padding="0">
+                <Label x:Name="teacher2"/>
+            </Frame>
+            <Frame Grid.Row="4" Grid.Column="2" BorderColor="Black" Padding="0">
+                <Label x:Name="teacher3"/>
+            </Frame>
+            <Frame Grid.Row="5" Grid.Column="2" BorderColor="Black" Padding="0">
+                <Label x:Name="teacher4"/>
+            </Frame>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
